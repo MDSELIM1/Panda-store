@@ -12,6 +12,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a{
@@ -170,3 +171,23 @@ footer {
 
 
 /* Footer SEction end Here  */
+
+
+/* Responsive Custom Css --  */
+
+
+@media (max-width:692px){
+	.navbar-brand img {
+		width: 160px;
+	}
+	.bag-title {	
+		font-size: 30px;
+	}
+	.banner-title {
+		font-size: 35px;
+	}
+  form input[type="submit"] {
+    font-size: 16px;
+    padding: 9px 8px;
+  }
+}
