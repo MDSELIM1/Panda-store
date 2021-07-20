@@ -1,0 +1,172 @@
+/* Google Font Link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Default Css  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  transition: .4s;
+}
+
+/* Header Section Css Write Start Here  */
+
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar-brand img {
+  width: 198px;
+}
+
+/* Header Section Css Write Start Here  */
+
+/* Banner Section Css Start here  */
+
+.banner-section {
+  background-color: #fde9e8;
+}
+
+.banner-title {
+  font-size: 44px;
+  color: orangered;
+  font-weight: 500;
+}
+
+.price {
+  color: #ff136f;
+  font-size: 40px;
+  font-weight: 500;
+}
+.btn-cmn i {
+  margin-left: 10px;
+}
+
+.btn-cmn {
+  background: linear-gradient(#ff297d, #ff297fad);
+  color: #ffffff;
+  padding: 8px 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  border: 2px solid #ff136f;
+}
+
+.btn-cmn:hover {
+  background: transparent;
+  color: #ff136f;
+}
+
+.banner-text {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* Banner Section Css End here  */
+
+/* Category Section Css Start Here  */
+.bag-title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.category-single {
+  border-radius: 15px;
+}
+
+/* Category Section Css End Here  */
+
+
+/* Shoes Section Start Here  */
+
+.shoes-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #333;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+/* Shoes Section End Here  */
+
+/* Subscribe Box Start here  */
+
+.subscribe-box {
+  background-color: #FCEAE8;
+}
+
+form {
+	position: relative;
+}
+
+form input {
+	width: 100%;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+}
+
+form input[type="submit"] {
+	position: absolute;
+	width: auto;
+	top: 0px;
+	right: 0;
+	background: #ff136f;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 18px;
+	padding: 9px 49px;
+	border-radius: 0 8px 8px 0;
+	transition: .3s;
+}
+
+form input[type="submit"]:hover {
+	background: #E16038;
+}
+
+
+/* Subscribe Box End here  */
+
+/* Footer SEction Start Here  */
+
+footer {
+  background-color: #DA70D6;
+  margin-top: 100px;
+}
+
+.footer-text p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-text p a {
+  text-decoration: none;
+  color: olivedrab;
+}
+
+.footer-text p a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer SEction end Here  */

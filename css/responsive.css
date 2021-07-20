@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:692px){
+    form input[type="submit"] {
+		padding: 9px 25px;
+	}
+}
